@@ -11,9 +11,9 @@ def calculation(year):
     if year % 4 == 0 and year % 100 != 0:
         return print("YES")
     elif year % 400 == 0:
-        return print("YES")
+        return True
     else:
-        return print("NO")
+        return False
 
 
 def main():
